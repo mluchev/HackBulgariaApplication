@@ -1,0 +1,23 @@
+#canvas {
+    margin: 30px;
+    border: solid 2px black;
+}
+
+#inputContainer, #saveLoadContainer {
+    margin-left: 40px;
+}
+
+#triangleColorInput {
+    margin-left: 10px;
+}
+
+#clearCanvas {
+    margin-left: 30px;
+}
+
+input#saveCanvas, input#loadCanvas {
+    margin: 15px 40px;
+}
+#savedCanvases {
+    min-width: 120px;
+}

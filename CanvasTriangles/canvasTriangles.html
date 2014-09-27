@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Triangles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/drawingCalculator.js"></script>
+    <script src="js/saveLoadCanvas.js"></script>
+    <script src="js/trianglesDrawer.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="mainContainer">
+        <canvas id="canvas"></canvas>
+
+        <div id="inputContainer">
+            <label for="triangleColorInput">Choose drawing color: </label>
+            <input id="triangleColorInput" name="triangleColorInput" type="color"/>
+            <input id="clearCanvas" type="button" value="Clear"/>
+        </div>
+
+        <input id="saveCanvas" type="button" value="Save Canvas"/>
+
+        <div id="loadCanvasContainer">
+            <input id="loadCanvas" type="button" value="Load Canvas" />
+            <select id="savedCanvases">
+            </select>
+        </div>
+    </div>
+</body>
+</html>
